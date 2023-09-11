@@ -1,0 +1,26 @@
+.loc_contact {
+    font-size: .9rem;
+    font-weight: 500;
+    color: rgb(71, 71, 71);
+    letter-spacing: .3px;
+}
+
+.loc_contact span {
+    background-color: #0041C4;
+    padding: .8rem;
+    border-radius: 50%;
+    border: none;
+    color: #C1C7D091;
+    margin-left: 2.5rem;
+    margin-right: .7rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-size: 1rem;
+}
+
+.loc_contactNum span {
+    background-color: white;
+    color: gray;
+    padding: .8rem 1.15rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
