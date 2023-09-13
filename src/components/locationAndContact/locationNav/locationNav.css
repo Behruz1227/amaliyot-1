@@ -1,33 +1,36 @@
 .loc_nav {
     background-color: white;
-    margin: 1.5rem 2.5rem auto 2rem;
+    margin: .7rem 2.5rem auto 2rem;
     border-radius: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 1.5rem 0 1.5rem;
+    height: 40px;
 }
 
 .loc_nav p {
-    font-size: .8rem;
-    letter-spacing: .5px;
+    color: #787993;
+    font-family: Gotham Pro;
     font-weight: 400;
-    color: rgb(114, 113, 113);
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.3499999940395355px;
 }
 
 .loc_out-svg {
     background-color: #183784;
-    padding: .2rem .3rem .4rem .4rem;
+    padding: .2rem .35rem .4rem .41rem;
     border-radius: 50%;
     cursor: pointer;
     transition: all .1s;
     font-size: 1rem;
 
     &:hover {
-        border: 3.5px solid #B6D7FF;
+        border: 3px solid #B6D7FF;
     }
 
     &:focus {
-        border: 3.5px solid #B6D7FF;
+        border: 3px solid #B6D7FF;
     }
 }

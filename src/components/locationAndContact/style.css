@@ -5,4 +5,74 @@
 
 .loc_main-box {
     background-color: #F2F2F3;
+    font-family: GothamPro;
+    padding-bottom: .99rem;
+}
+
+.loc_main-box h5 {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.0625px;
+    text-align: left;
+    margin-top: 1.4rem;
+    color: #000000;
+}
+
+.loc_main-box h3 {
+    font-size: 25px;
+    line-height: 29px;
+    letter-spacing: 0.1041666716337204px;
+    text-align: left;
+    color: #000000;
+}
+
+.loc_main-input {
+    border-color: #50B5FF !important;
+    background-color: #F2F2F3 !important;
+}
+
+.loc_main-text {
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 1px;
+    color: #9B9B9B;
+}
+
+.loc_plus-par {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #1E75FF;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.loc_work {
+    color: #171725;
+    font-size: 1.1rem;
+    line-height: 36px;
+    letter-spacing: 0.05833333358168602px;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.loc_main-watches {
+    background-color: #C1C7D091;
+    text-transform: uppercase;
+}
+
+.loc_main-watches p {
+    margin: 0;
+}
+
+.loc_main-watch {
+    border-bottom: 1px solid #85858791;
 }
