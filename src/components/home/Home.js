@@ -1,11 +1,12 @@
 import React from 'react'
-import Sidebar from '../sidebar/Sidebar'
+import Login from '../login/Login'
+
 
 function Home() {
   return (
-    <div>
-      <Sidebar/>
-    </div>
+    <>
+      <Login/>
+    </>
   )
 }
 
