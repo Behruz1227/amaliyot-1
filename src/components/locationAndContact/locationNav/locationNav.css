@@ -1,0 +1,36 @@
+.loc_nav {
+    background-color: white;
+    margin: .7rem 2.5rem auto 2rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem 0 1.5rem;
+    height: 40px;
+}
+
+.loc_nav p {
+    color: #787993;
+    font-family: Gotham Pro;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.3499999940395355px;
+}
+
+.loc_out-svg {
+    background-color: #183784;
+    padding: .2rem .35rem .4rem .41rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .1s;
+    font-size: 1rem;
+
+    &:hover {
+        border: 3px solid #B6D7FF;
+    }
+
+    &:focus {
+        border: 3px solid #B6D7FF;
+    }
+}
