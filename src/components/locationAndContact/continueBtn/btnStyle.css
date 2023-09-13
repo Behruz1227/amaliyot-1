@@ -1,0 +1,55 @@
+.continue_btn {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0.6rem 1.8rem;
+    color: blue;
+    background-color: #F2F2F3;
+    border: 0.1rem solid blue;
+    border-radius: 6rem;
+    transition: 3s;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-top: 3rem;
+}
+
+.continue_btn:before,
+.continue_btn:after {
+    content: "";
+    position: absolute;
+    top: -1.5em;
+    z-index: -1;
+    width: 200%;
+    aspect-ratio: 1;
+    border: none;
+    border-radius: 40%;
+    background-color: rgba(0, 0, 255, 0.25);
+    transition: 4s;
+}
+
+.continue_btn:before {
+    left: -80%;
+    transform: translate3d(0, 5em, 0) rotate(-340deg);
+}
+
+.continue_btn:after {
+    right: -80%;
+    transform: translate3d(0, 5em, 0) rotate(390deg);
+}
+
+.continue_btn:hover,
+.continue_btn:focus {
+    color: white;
+}
+
+.continue_btn:hover:before,
+.continue_btn:hover:after,
+.continue_btn:focus:before,
+.continue_btn:focus:after {
+    transform: none;
+    background-color: blue;
+}

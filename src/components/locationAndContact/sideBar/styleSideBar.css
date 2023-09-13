@@ -1,26 +1,30 @@
 .loc_contact {
-    font-size: .9rem;
     font-weight: 500;
-    color: rgb(71, 71, 71);
-    letter-spacing: .3px;
+    color: #171725;
+    margin-top: 1.2rem;
+    margin-left: 1.3rem;
+    font-family: GothamPro;
+    font-size: 14px;
+    line-height: 31px;
+    letter-spacing: 0.05833333358168602px;
+    text-align: left;
+
 }
 
 .loc_contact span {
     background-color: #0041C4;
-    padding: .8rem;
+    padding: .43rem .47rem;
     border-radius: 50%;
     border: none;
     color: #C1C7D091;
-    margin-left: 2.5rem;
-    margin-right: .7rem;
+    margin-right: .4rem;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 .loc_contactNum span {
     background-color: white;
     color: gray;
-    padding: .8rem 1.15rem;
-    font-weight: 500;
+    padding: .5rem .8rem;
     font-size: 1rem;
 }
