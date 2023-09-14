@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins" , sans-serif;
+}
+
+.sidebar_menu{
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 78px;
+  background: #1D2359;
+  padding: 6px 14px;
+  z-index: 99;
+  transition: all 0.5s ease;
+}
+
+.sidebar_menu .Logo{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.sidebar_menu .Logo .Text_Logo{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 100%;
+  transition: all 0.5s ease;
+}
+
+.sidebar_menu.open{
+  width: 260px;
+}
+
+.sidebar_menu .Logo #Button{
+  position: absolute;
+  top: 50%;
+  margin-top: 1rem;
+  right: 0;
+  transform: translateY(-50%);
+  font-size: 22px;
+  transition: all 0.4s ease;
+  font-size: 23px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.sidebar_menu .Logo .icon{
+  opacity: 100%;
+  transition: all 0.5s ease;
+}
+
+.sidebar_menu.open .Logo .icon,
+.sidebar_menu.open .Logo .Text_Logo{
+  opacity: 100%;
+}
+
+
+.sidebar_menu.open .Logo #Button{
+  text-align: right;
+}
+
+.sidebar_menu i{
+  color: #fe4646;
+  height: 60px;
+  min-width: 50px;
+  font-size: 28px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.sidebar_menu .Nav_Item{
+  margin-top: 40px;
+  height: 100%;
+}
+.logo-detail {
+  width: 60px !important;
+  height: 60px;
+  margin-left: -38px !important;
+  margin-bottom: 10px;
+  &:hover {
+    background-color: #1D2359 !important;
+  }
+}
+.logo-img {
+  width: 50px !important;
+  height: 50px !important;
+  
+}
+
+
+.sidebar_menu li{
+  position: relative;
+  margin: 3px 0;
+  margin-left: -30px;
+  list-style: none;
+}
+
+.sidebar_menu li .Menu_btn{
+  position: absolute;
+  top: -20px;
+  left: calc(100% + 15px);
+  z-index: 3;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.382);
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 0;
+  white-space: nowrap;
+  pointer-events: none;
+  transition: 0s;
+}
+
+.sidebar_menu li:hover .Menu_btn{
+  opacity: 1;
+  pointer-events: auto;
+  transition: all 0.4s ease;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.sidebar_menu.open li .Menu_btn{
+  display: none;
+}
+
+.sidebar_menu input{
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.382);
+  font-weight: 400;
+  outline: none;
+  height: 50px;
+  width: 100%;
+  width: 50px;
+  border: none;
+  border-radius: 17px;
+  transition: all 0.5s ease;
+  background: #f3cfff;
+}
+
+.sidebar_menu.open input{
+  padding: 0 20px 0 50px;
+  width: 100%;
+}
+
+.sidebar_menu.open .bx-search:hover{
+  background: #bb00fd;
+  color: #FFF;
+}
+
+
+
+.sidebar_menu li a{
+  display: flex;
+  padding: 5px;
+  margin-top: 12px;
+  height: 100%;
+  width: 100%;
+  border-radius: 17px;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.sidebar_menu li a:hover{
+  background: #979797;
+}
+
+.sidebar_menu li a .Item_Name{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.4s;
+}
+
+.sidebar_menu.open li a .Item_Name{
+  opacity: 1;
+  pointer-events: auto;
+}
+.sidebar_menu li img{
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border-radius: 14px;
+  margin-right: 10px;
+}
+
+.Dashboard_Text{
+  position: relative;
+  background: #e3f2ee;
+  min-height: 100vh;
+  top: 0;
+  left: 78px;
+  width: calc(100% - 78px);
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.sidebar_menu.open ~ .Dashboard_Text{
+  left: 250px;
+  width: calc(100% - 250px);
+}
+
+.Dashboard_Text .Child_Text{
+  display: inline-block;
+  color: #000000;
+  font-size: 22px;
+  font-weight: 450;
+  margin: 14px;
+}
+
+@media (max-width: 420px) {
+  .sidebar_menu li .Menu_btn{
+    display: none;
+  }
+}
