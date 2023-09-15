@@ -1,12 +1,8 @@
-import React from 'react'
-import Login from '../login/Login'
-
-
 function Home() {
   return (
     <>
-      
+      Home
     </>
   )
 }
-export default Home
+export default Home;

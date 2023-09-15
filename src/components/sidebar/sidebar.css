@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins" , sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-.sidebar_menu{
+.sidebar_menu {
   position: fixed;
   left: 0;
   top: 0;
@@ -19,14 +19,14 @@
   transition: all 0.5s ease;
 }
 
-.sidebar_menu .Logo{
+.sidebar_menu .Logo {
   height: 60px;
   display: flex;
   align-items: center;
   position: relative;
 }
 
-.sidebar_menu .Logo .Text_Logo{
+.sidebar_menu .Logo .Text_Logo {
   color: #fff;
   font-size: 20px;
   font-weight: 600;
@@ -34,40 +34,41 @@
   transition: all 0.5s ease;
 }
 
-.sidebar_menu.open{
+.sidebar_menu.open {
   width: 260px;
 }
 
-.sidebar_menu .Logo #Button{
+.sidebar_menu .Logo #Button {
   position: absolute;
-  top: 50%;
-  margin-top: 1rem;
+  top: 8%;
   right: 0;
-  transform: translateY(-50%);
+  margin-top: 1rem;
   font-size: 22px;
-  transition: all 0.4s ease;
   font-size: 23px;
-  text-align: center;
   cursor: pointer;
+  text-align: center;
   transition: all 0.5s ease;
+  /* left: 10%; */
+  /* transform: translateY(-50%); */
+  /* transition: all 0.4s ease; */
 }
 
-.sidebar_menu .Logo .icon{
+.sidebar_menu .Logo .icon {
   opacity: 100%;
   transition: all 0.5s ease;
 }
 
 .sidebar_menu.open .Logo .icon,
-.sidebar_menu.open .Logo .Text_Logo{
+.sidebar_menu.open .Logo .Text_Logo {
   opacity: 100%;
 }
 
-
-.sidebar_menu.open .Logo #Button{
-  text-align: right;
+.sidebar_menu.open .Logo #Button {
+  left: 3%;
+  text-align: left;
 }
 
-.sidebar_menu i{
+.sidebar_menu i {
   color: #fe4646;
   height: 60px;
   min-width: 50px;
@@ -76,34 +77,37 @@
   line-height: 60px;
 }
 
-.sidebar_menu .Nav_Item{
+.sidebar_menu .Nav_Item {
   margin-top: 40px;
   height: 100%;
 }
+
 .logo-detail {
   width: 60px !important;
   height: 60px;
   margin-left: -38px !important;
   margin-bottom: 10px;
+
   &:hover {
     background-color: #1D2359 !important;
   }
 }
+
 .logo-img {
   width: 50px !important;
   height: 50px !important;
-  
+
 }
 
 
-.sidebar_menu li{
+.sidebar_menu li {
   position: relative;
   margin: 3px 0;
   margin-left: -30px;
   list-style: none;
 }
 
-.sidebar_menu li .Menu_btn{
+.sidebar_menu li .Menu_btn {
   position: absolute;
   top: -20px;
   left: calc(100% + 15px);
@@ -120,7 +124,7 @@
   transition: 0s;
 }
 
-.sidebar_menu li:hover .Menu_btn{
+.sidebar_menu li:hover .Menu_btn {
   opacity: 1;
   pointer-events: auto;
   transition: all 0.4s ease;
@@ -128,11 +132,11 @@
   transform: translateY(-50%);
 }
 
-.sidebar_menu.open li .Menu_btn{
+.sidebar_menu.open li .Menu_btn {
   display: none;
 }
 
-.sidebar_menu input{
+.sidebar_menu input {
   font-size: 15px;
   color: rgba(0, 0, 0, 0.382);
   font-weight: 400;
@@ -146,19 +150,19 @@
   background: #f3cfff;
 }
 
-.sidebar_menu.open input{
+.sidebar_menu.open input {
   padding: 0 20px 0 50px;
   width: 100%;
 }
 
-.sidebar_menu.open .bx-search:hover{
+.sidebar_menu.open .bx-search:hover {
   background: #bb00fd;
   color: #FFF;
 }
 
 
 
-.sidebar_menu li a{
+.sidebar_menu li a {
   display: flex;
   padding: 5px;
   margin-top: 12px;
@@ -170,11 +174,11 @@
   transition: all 0.4s ease;
 }
 
-.sidebar_menu li a:hover{
+.sidebar_menu li a:hover {
   background: #979797;
 }
 
-.sidebar_menu li a .Item_Name{
+.sidebar_menu li a .Item_Name {
   color: #fff;
   font-size: 15px;
   font-weight: 400;
@@ -184,11 +188,12 @@
   transition: 0.4s;
 }
 
-.sidebar_menu.open li a .Item_Name{
+.sidebar_menu.open li a .Item_Name {
   opacity: 1;
   pointer-events: auto;
 }
-.sidebar_menu li img{
+
+.sidebar_menu li img {
   height: 30px;
   width: 30px;
   object-fit: cover;
@@ -196,7 +201,7 @@
   margin-right: 10px;
 }
 
-.Dashboard_Text{
+/* .Dashboard_Text{
   position: relative;
   background: #e3f2ee;
   min-height: 100vh;
@@ -218,10 +223,10 @@
   font-size: 22px;
   font-weight: 450;
   margin: 14px;
-}
+} */
 
 @media (max-width: 420px) {
-  .sidebar_menu li .Menu_btn{
+  .sidebar_menu li .Menu_btn {
     display: none;
   }
 }

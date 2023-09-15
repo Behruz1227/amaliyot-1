@@ -10,6 +10,7 @@ import {
     PointElement
 } from "chart.js";
 import { Icon } from "@iconify/react";
+import Sidebar from "../sidebar/Sidebar";
 
 ChartJS.register(
     LineElement,
@@ -55,6 +56,9 @@ function StatisticsDashboard() {
 
     return (
         <div className="statistics_main">
+
+            {/* sidebar */}
+            <Sidebar />
 
             <div className="statistic_btn mb-2">
                 <span className="statistic_par">Статистика</span>
