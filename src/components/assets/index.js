@@ -10,6 +10,7 @@ import setting from "./imgs/sidebar/setting.svg"
 import up from "./imgs/sidebar/up.svg"
 import ura from "./imgs/sidebar/ura.svg"
 import oval from "./imgs/sidebar/Oval.png"
+import uraHorizontal from "./imgs/sidebar/footer-logo.svg"
 
 
 export {
@@ -24,6 +25,7 @@ export {
   setting,
   up,
   ura,
-  oval
+  oval,
+  uraHorizontal
 }
   
