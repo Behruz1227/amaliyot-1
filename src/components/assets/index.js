@@ -11,6 +11,7 @@ import up from "./imgs/sidebar/up.svg"
 import ura from "./imgs/sidebar/ura.svg"
 import oval from "./imgs/sidebar/Oval.png"
 import uraHorizontal from "./imgs/sidebar/footer-logo.svg"
+import clientImage from "./imgs/img.png"
 
 
 export {
@@ -26,6 +27,7 @@ export {
   up,
   ura,
   oval,
-  uraHorizontal
+  uraHorizontal,
+  clientImage
 }
   

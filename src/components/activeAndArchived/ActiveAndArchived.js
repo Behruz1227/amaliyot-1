@@ -1,7 +1,7 @@
 import Sidebar from "../sidebar/Sidebar";
 import NewsAndSearch from "./newsAndSearch/NewsAndSearch";
 import "./style.css";
-import bgImg from "./img/bgImg.jpg"
+import bgImg from "../assets/imgs/bgImg.jpg"
 import { Icon } from "@iconify/react";
 import { Button } from "reactstrap";
 
