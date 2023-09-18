@@ -1,0 +1,55 @@
+.nawbar{
+    width: 99%;
+    height: 50px;
+    background-color: #f2f2f3;
+    position: fixed;
+    /* bottom: 0; */
+    border-radius: 5px;
+    margin-left: .3%;
+}
+.prompt{
+    color: #787993 !important;
+    bottom: 0 !important;
+    margin-top: .8% !important;
+    margin-left: 1% !important;
+    font-size: medium !important;
+    font-weight: 400 !important;
+    display: inline-block;
+}
+.nawbar p{
+    color:#E02020;
+    margin-left: 15%;
+    margin-top: -2.7%;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+}
+.slujbaPoderjki{
+    font-size: 18px !important;
+    font-weight: 100;
+    color: #27448C !important;
+    letter-spacing: 1px;
+    margin-left: 3% !important;
+}
+.langs{
+    margin-left: 5%;
+    border: none;
+    border-color: #fff;
+    cursor: pointer;
+}
+.langs:active{
+    border-color: #fff;
+}
+.envelope{
+    margin-left: 4% !important;
+    color: #27448C;
+    cursor: pointer;
+    display: inline-block;
+}
+.notification{
+    margin-left: 2%;
+    color: #27448C;
+    cursor: pointer;
+}
+
+

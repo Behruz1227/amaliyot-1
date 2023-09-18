@@ -1,9 +1,10 @@
 import React from 'react';
+import Nawbar from '../Nawbar/Nawbar';
 
 function Home() {
   return (
     <div>
-      Home
+      <Nawbar/>
     </div>
   )
 }
