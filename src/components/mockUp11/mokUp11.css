@@ -1,0 +1,24 @@
+.mokUp11-col-2 {
+  width: 85%;
+  height: 80vh;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 5%;  
+}
+.mokUp11-main {
+  height: 100vh;
+  background-color: #F2F2F3;
+  color: #44444F;
+}
+.mokUp11-body {
+  margin-top: 6%;
+  width: 100%;
+  height: 73vh;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding-left: 3%;
+}
+
+.mokUp11-nav {
+  background-color:#E8E8E8;
+}

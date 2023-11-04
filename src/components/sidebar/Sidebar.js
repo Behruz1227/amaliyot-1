@@ -105,9 +105,7 @@ function Sidebar() {
           </li>
         </ul>
       </div>
-      <section className="Dashboard_Text">
-        <div className="Child_Text">Dashboard</div>
-      </section>
+      
     </>
 
   )

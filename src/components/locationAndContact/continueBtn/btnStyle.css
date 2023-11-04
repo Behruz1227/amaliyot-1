@@ -14,7 +14,6 @@
     transition: 3s;
     cursor: pointer;
     letter-spacing: 1px;
-    margin-top: 3rem;
 }
 
 .continue_btn:before,

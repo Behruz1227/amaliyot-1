@@ -1,11 +1,10 @@
 import React from 'react'
-import Login from '../login/Login'
-
+import MokUp16 from '../mokUp16/MokUp16'
 
 function Home() {
   return (
     <>
-      
+      <MokUp16/>
     </>
   )
 }

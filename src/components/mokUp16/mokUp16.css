@@ -1,0 +1,21 @@
+.mokUp16-body{
+  transform: translate(120%, 45%);
+}
+
+.mokUp16-login-input {
+  justify-content: center;
+  align-items: center;
+  border-color: #fff !important;
+  border-radius: 0px !important;
+  border-bottom: rgb(90, 86, 86) 1px solid !important;
+  border-style: solid;
+
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+.mokUp16-login {
+
+  display: inline-block;
+  width: 20%;
+}
