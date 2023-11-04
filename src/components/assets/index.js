@@ -10,12 +10,6 @@ import setting from "./imgs/sidebar/setting.svg"
 import up from "./imgs/sidebar/up.svg"
 import ura from "./imgs/sidebar/ura.svg"
 import oval from "./imgs/sidebar/Oval.png"
-import afonse from "./imgs/afonse.png"
-import logo from "./imgs/sidebar/logo.png"
-import loginBlog from "./imgs/login/loginBlog.svg"
-import mockup12 from "./imgs/operatsiya/mockup12.png"
-import search from "./imgs/operatsiya/search.svg"
-import nuqta from "./imgs/operatsiya/nuqta.svg"
 
 
 export {
@@ -30,12 +24,6 @@ export {
   setting,
   up,
   ura,
-  oval,
-  loginBlog,
-  logo,
-  mockup12,
-  search,
-  nuqta,
-  afonse
+  oval
 }
   

@@ -1,30 +1,41 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./sidebar.css"
-import { bell, cellular, file, happy, heart, help, oval, photo, schedule, setting, up, ura } from '../assets';
+import { bell, cellular, file, happy, heart, help, oval, photo, schedule, setting, up, ura, uraHorizontal } from '../assets';
 
 function Sidebar() {
+
+  const [logoImg, setLogoImg] = useState(false);
+
   useEffect(() => {
     let sidebar = document.querySelector(".sidebar_menu");
     let closeBtn = document.querySelector("#Button");
     closeBtn.addEventListener("click", () => {
       sidebar.classList.toggle("open");
-      menuBtnChange();
+      // menuBtnChange();
     });
-    function menuBtnChange() {
-      if (sidebar.classList.contains("open")) {
-        closeBtn.classList.replace("bx-menu", "bxs-x-circle");
-      } else {
-        closeBtn.classList.replace("bxs-x-circle", "bx-menu");
-      }
-    }
+    // function menuBtnChange() {
+    //   if (sidebar.classList.contains("open")) {
+    //     closeBtn.classList.replace("bx-menu", "bxs-x-circle");
+    //   } else {
+    //     closeBtn.classList.replace("bxs-x-circle", "bx-menu");
+    //   }
+    // }
   }, []);
+
+  const openLogoImg = () => setLogoImg(!logoImg);
 
   return (
     <>
       <div className="sidebar_menu ">
         <div className="Logo">
           <i className="bx bxl-slack" />
-          <div><img className="Text_Logo icon" src={ura} alt="." id="Button" /></div>
+          <div id="Button" onClick={openLogoImg}>
+            {logoImg && logoImg ?
+              <img src={uraHorizontal} alt="." />
+              :
+              <img className="Text_Logo icon" src={ura} alt="." />
+            }
+          </div>
           <i className="bx bx-menu" />
         </div>
         <ul className="Nav_Item">
@@ -106,6 +117,9 @@ function Sidebar() {
         </ul>
       </div>
       
+      {/* <section className="Dashboard_Text">
+        <div className="Child_Text">Dashboard</div>
+      </section> */}
     </>
 
   )

@@ -5,7 +5,7 @@ function Home() {
   return (
     <>
       <MokUp16/>
+      Home
     </>
-  )
 }
-export default Home
+export default Home;
